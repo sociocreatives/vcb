@@ -1,6 +1,5 @@
 .mainbody {
     padding: 1.5rem;
-    background-color: #D9D9D9;
 }
 
 .divisions {
@@ -25,6 +24,7 @@
     justify-content: center;
     align-items: center;
     color: #01215B;
+    cursor: pointer;
 }
 
 .iconcard:hover {

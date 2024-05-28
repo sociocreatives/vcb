@@ -7,18 +7,28 @@
   margin: 0;
   font-family: "Poppins", sans-serif;
   font-optical-sizing: auto;
+  font-weight: 300;
 }
+body{
+  background-color: #BEBABA;
+}
+
+h1,h2,h3,h4,h5{
+  font-weight: 600;
+  color: #01215B;
+}
+
+
 
 .mainlogin{
   height: 100vh;
+  width: 100%;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
+  background-color: #FFFFFF;
 }
 
 .left{
-  background-image: ur("");
-  background-position: center;
-  background-size: cover;
   height: 100%;
   background-color: rgb(3, 3, 75);
   color: white;
@@ -47,6 +57,7 @@
   justify-content: center;
   max-width: 60%;
   margin: 0 auto;
+  background-color: #FFFFFF;
 }
 
 .right h3{

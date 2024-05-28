@@ -1,6 +1,7 @@
 import React from "react";
 import Image from "next/image";
 import Link from "next/link";
+import Box from "@/app/components/Box";
 
 export default function home() {
   //
@@ -45,7 +46,9 @@ export default function home() {
         <div className="forgot">
           <p>Forgot Password</p>
           <p>Don’t have an account? <span className="register">Register</span></p>
+          
         </div>
+        
       </div>
     </section>
   );

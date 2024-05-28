@@ -18,100 +18,11 @@ export default function page() {
     <>
       <section className={styles.divisions}>
         <div className={styles.bankdetails}>
-            <h3>Good Day Eliud Njogu</h3>
-          {/* <h4>My Accounts</h4> */}
-          <div className={styles.selector}>
-          <select className={styles.select} name="accounts" id="accounts">
-            <option value="kshs" className={styles.options}>
-              Kenya Shillings Account
-            </option>
-            <option value="usd">US Dollar Account</option>
-            <option value="gbp">British Pound Account</option>
-            <option value="euro">Euro Account</option>
-          </select>
-          <Image
-                  src="/assets/images/icon-down.svg"
-                  alt="billpayment"
-                  width={30}
-                  height={30}
-                  className="imagelogo"
-                />
-          </div>
-          <div className={styles.cards}>
-            <div className="top_images">
-              <div>
-                <Image
-                  src="/assets/images/vic_white.svg"
-                  alt="billpayment"
-                  width={83}
-                  height={36}
-                  className="imagelogo"
-                />
-              </div>
-              <div>
-                <Image
-                  src="/assets/images/chip.svg"
-                  alt="billpayment"
-                  width={83}
-                  height={36}
-                  className="imagelogo"
-                />
-              </div>
-            </div>
-            <div className={styles.bottomimages}>sdfsgsd fsdfsgsdg</div>
-          </div>
-          <div className={styles.balance}>
-            <div className={styles.topa}>
-              <p>Available Balance</p>
-            </div>
-            <div className={styles.actual}>
-              <h4>USD 40,000.00</h4>
-              <Image
-                src="/assets/images/macho.svg"
-                alt="billpayment"
-                width={27}
-                height={18}
-                className="imagelogo"
-              />
-            </div>
-          </div>
-          <div className={styles.pending}>
-            <div className={styles.topa}>
-              <p>Available Balance</p>
-            </div>
-            <div className={styles.actual}>
-              <h4>USD 40,000.00</h4>
-              <Image
-                src="/assets/images/macho.svg"
-                alt="billpayment"
-                width={27}
-                height={18}
-                className="imagelogo"
-              />
-            </div>
-          </div>
-          <div className={styles.balance}>
-            <div className={styles.topa}>
-              <p>Available Balance</p>
-            </div>
-            <div className={styles.actual}>
-              <h4>USD 40,000.00</h4>
-              <Image
-                src="/assets/images/macho.svg"
-                alt="billpayment"
-                width={27}
-                height={18}
-                className="imagelogo"
-              />
-            </div>
-          </div>
+            
         </div>
-        {/* account details */}
+
         <div className={styles.accountdetails}>
-          {/* <div className={styles.greetings}>
-            <h3>Good Day Eliud Njogu</h3>
-            <h4>Last Login: 10-05-2024 10:40</h4>
-          </div> */}
+
           <div className={styles.shortcuts}>
             <div className={styles.iconcard}>
               <Image
@@ -184,10 +95,10 @@ export default function page() {
           <div className={styles.latest}>
             <table className={styles.table}>
               <tr className={styles.tr}>
-                <th className={styles.th}>Date</th>
-                <th className={styles.th}>Description</th>
-                <th className={styles.th}>status</th>
-                <th className={styles.th}>Amount</th>
+                <th className={styles.th}><h4>Date</h4></th>
+                <th className={styles.th}><h4>Description</h4></th>
+                <th className={styles.th}><h4>Status</h4></th>
+                <th className={styles.th}><h4>Amount</h4></th>
               </tr>
               <tr>
                 <td className={styles.td}>10052024</td>
@@ -220,33 +131,6 @@ export default function page() {
                 <td className={styles.td}>10,000.00</td>
               </tr>
             </table>
-          </div>
-        </div>
-      </section>
-
-      <section className={styles.divisionstwo} style={imageStyle}>
-        <div className={styles.cont}>
-          <p>
-            The mobile banking service is available on Smart Phones and Tablets
-            using iOS, Android and Windows mobile operating systems.. The
-            E-banking platform can be accessed using Internet Explorer, Google
-            Chrome, Mozilla Firefox, Safari and Opera browsers.
-          </p>
-          <div className={styles.store}>
-            <Image
-              src="/assets/images/apple-store.png"
-              alt="billpayment"
-              width={151}
-              height={50}
-              className="imagelogo"
-            />
-            <Image
-              src="/assets/images/google-store.png"
-              alt="billpayment"
-              width={170}
-              height={50}
-              className="imagelogo"
-            />
           </div>
         </div>
       </section>
